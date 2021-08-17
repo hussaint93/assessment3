@@ -1,1 +1,12 @@
 2021-08-17 06:50:16,808 INFO c.t.e.a.Bank [main] type of account user want to open
+2021-08-17 07:34:15,479 INFO c.t.e.a.Bank [main] Enter the id you want to deposit to and amount to deposit
+2021-08-17 07:39:24,613 INFO c.t.e.a.Bank [main] Enter the id you want to deposit to and amount to deposit
+2021-08-17 07:43:16,516 INFO c.t.e.a.Bank [main] Enter the id you want to deposit to and amount to deposit
+2021-08-17 07:45:05,231 INFO c.t.e.a.Bank [main] Enter the id you want to deposit to and amount to deposit
+2021-08-17 08:08:36,136 INFO c.t.e.a.Bank [main] Enter the id you want to deposit to and amount to deposit
+2021-08-17 08:09:22,204 INFO c.t.e.a.Bank [main] Enter the id you want to deposit to and amount to deposit
+2021-08-17 08:11:07,072 INFO c.t.e.a.Bank [main] Enter the id you want to deposit to and amount to deposit
+2021-08-17 08:12:03,222 INFO c.t.e.a.Bank [main] Enter the id you want to deposit to and amount to deposit
+2021-08-17 08:14:58,136 INFO c.t.e.a.Bank [main] Enter the id you want to withdraw from and amount to be withdrawen
+2021-08-17 08:16:07,576 INFO c.t.e.a.Bank [main] Enter the id you want to withdraw from and amount to be withdrawen
+2021-08-17 08:16:19,762 INFO c.t.e.a.Bank [main] low balance
