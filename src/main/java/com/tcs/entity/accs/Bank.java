@@ -27,22 +27,22 @@ public class Bank {
 		
 		try (Connection connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
 				Statement statement = connection.createStatement();) {
-//			if (accType.equalsIgnoreCase("savings")) {
-//				
-//				Account account = new SavingsAccount("hussain", 900L,new Date() , "Active", "Savings", "Mumbai,Maharashtra,401105,cabin road,c/411 new navrang");
-//				create(statement, account);
-//			} else if (accType.equalsIgnoreCase("current")) {
-//				Account account = new CurrentAccount("hussain", 900L, new Date(), "Active", "Current", "Mumbai,Maharashtra,401105,cabin road,c/411 new navrang");
-//				create(statement, account);
-//			} else if (accType.equalsIgnoreCase("Demat")) {
-//				Account account = new DematAccount("hussain", 900L, new Date(), "Active", "Demat", "Mumbai,Maharashtra,401105,cabin road,c/411 new navrang");
-//				create(statement, account);
-//			} else {
-//				logger.debug("enter proper type");
-//			}
+			if (accType.equalsIgnoreCase("savings")) {
+				
+				Account account = new SavingsAccount("hussain", 900L,new Date() , "Active", "Savings", "Mumbai,Maharashtra,401105,cabin road,c/411 new navrang");
+				create(statement, account);
+			} else if (accType.equalsIgnoreCase("current")) {
+				Account account = new CurrentAccount("hussain", 900L, new Date(), "Active", "Current", "Mumbai,Maharashtra,401105,cabin road,c/411 new navrang");
+				create(statement, account);
+			} else if (accType.equalsIgnoreCase("Demat")) {
+				Account account = new DematAccount("hussain", 900L, new Date(), "Active", "Demat", "Mumbai,Maharashtra,401105,cabin road,c/411 new navrang");
+				create(statement, account);
+			} else {
+				logger.debug("enter proper type");
+			}
 			
 			withdraw(statement,sc);//to withdraw from account
-			//deposit(statement,sc);// to deposit into account
+			deposit(statement,sc);// to deposit into account
 
 		} catch (SQLException e) {
 			e.printStackTrace();
