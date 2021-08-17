@@ -10,3 +10,7 @@
 2021-08-17 08:14:58,136 INFO c.t.e.a.Bank [main] Enter the id you want to withdraw from and amount to be withdrawen
 2021-08-17 08:16:07,576 INFO c.t.e.a.Bank [main] Enter the id you want to withdraw from and amount to be withdrawen
 2021-08-17 08:16:19,762 INFO c.t.e.a.Bank [main] low balance
+2021-08-17 09:24:45,322 INFO c.t.e.a.Bank [main] Enter the id you want to withdraw from and amount to be withdrawen
+2021-08-17 09:28:37,117 INFO c.t.e.a.Bank [main] Enter the id you want to deposit to and amount to deposit
+2021-08-17 09:30:09,463 INFO c.t.e.a.Bank [main] Enter the id you want to deposit to and amount to deposit
+2021-08-17 09:30:55,943 INFO c.t.e.a.Bank [main] Enter the id you want to deposit to and amount to deposit
