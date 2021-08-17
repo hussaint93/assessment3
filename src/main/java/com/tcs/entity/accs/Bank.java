@@ -41,7 +41,7 @@ public class Bank {
 				logger.debug("enter proper type");
 			}
 			
-			//withdraw(statement,sc);//to withdraw from account
+			withdraw(statement,sc);//to withdraw from account
 			deposit(statement,sc);// to deposit into account
 
 		} catch (SQLException e) {
